@@ -1,0 +1,33 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.brand-logo{
+  font-size: 50px; !important;
+  font-weight: 100;
+}
+#nav-mobile ul{
+  padding-right: 50px;
+}
+
+#nav-mobile li a.current, #nav-mobile a:hover{
+  border-bottom: #fff 3px solid;
+  padding-bottom: 3px
+}
+
+.tabs .tab a{
+    color:#0d47a1;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#FFF;
+    color:#0d47a1;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color:#FFF;
+    color:#0d47a1;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:#0d47a1;
+} /*Color of underline*/
